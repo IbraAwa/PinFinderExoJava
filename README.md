@@ -16,7 +16,7 @@ La mission El Jefe vise le cartel de Sinaloa et son chef. Dans cette mission, un
 
 ## Ce repo, c'est quoi ?
 
-Une version Java de la mission, pour s'entraîner sur l'algorithme avant de passer à la version officielle Python (repo [PinFinderPython](https://github.com/IbraAwa/PinFinderPython)).
+Une version Java de la mission. Le `coffre.zip` de ce repo est le même que celui de la mission officielle : si vous le craquez ici, vous obtenez le vrai flag et la vraie adresse de l'intranet, directement soumissibles sur la plateforme.
 
 Java ne sait pas ouvrir nativement un zip protégé par mot de passe (contrairement au module `zipfile` de Python), donc `testerPin` est déjà écrit et gère tout ça pour vous, grâce à la librairie [zip4j](https://github.com/srikanth-lingala/zip4j) fournie dans `lib/`. **Il ne vous reste que l'algorithme à écrire dans `trouverPin`.**
 
@@ -38,6 +38,8 @@ Avec `trouverPin` vide (TODO non rempli), le programme affiche `Aucun PIN trouve
 
 ## Et après ?
 
-Une fois votre algorithme qui fonctionne en Java, demandez à une IA de le traduire (pas `testerPin`) en Python, pour compléter `trouver_pin` dans `main.py` du repo [PinFinderPython](https://github.com/IbraAwa/PinFinderPython) : c'est ce fichier-là qui sert pour la soumission officielle de la mission.
+Le flag et l'adresse affichés par ce programme sont les vrais : vous pouvez les soumettre directement sur la plateforme, rien d'autre à faire.
+
+En bonus, si vous voulez aussi vous entraîner en Python, vous pouvez demander à une IA de traduire votre algorithme (pas `testerPin`) pour compléter `trouver_pin` dans `main.py` du repo [PinFinderPython](https://github.com/IbraAwa/PinFinderPython) — mais ce n'est pas nécessaire pour valider la mission.
 
 *Fin du message.*
