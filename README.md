@@ -18,7 +18,7 @@ La mission El Jefe vise le cartel de Sinaloa et son chef. Dans cette mission, un
 
 Une version Java de la mission, pour s'entraîner sur l'algorithme avant de passer à la version officielle Python (repo [PinFinderPython](https://github.com/IbraAwa/PinFinderPython)).
 
-Java ne sait pas ouvrir nativement un zip protégé par mot de passe (contrairement au module `zipfile` de Python), donc `testerPin` est déjà écrit et gère tout ça pour vous, grâce à la librairie [zip4j](https://github.com/srikanth-lingala/zip4j) fournie dans `lib/`. **Il ne vous reste que l'algorithme à écrire dans `trouverPin`** : les quatre boucles imbriquées.
+Java ne sait pas ouvrir nativement un zip protégé par mot de passe (contrairement au module `zipfile` de Python), donc `testerPin` est déjà écrit et gère tout ça pour vous, grâce à la librairie [zip4j](https://github.com/srikanth-lingala/zip4j) fournie dans `lib/`. **Il ne vous reste que l'algorithme à écrire dans `trouverPin`.**
 
 ## Compiler et lancer
 
@@ -38,6 +38,6 @@ Avec `trouverPin` vide (TODO non rempli), le programme affiche `Aucun PIN trouve
 
 ## Et après ?
 
-Une fois votre algorithme qui fonctionne en Java, demandez à une IA de traduire **uniquement les boucles** (pas `testerPin`) en Python, pour compléter `trouver_pin` dans `main.py` du repo [PinFinderPython](https://github.com/IbraAwa/PinFinderPython) : c'est ce fichier-là qui sert pour la soumission officielle de la mission.
+Une fois votre algorithme qui fonctionne en Java, demandez à une IA de le traduire (pas `testerPin`) en Python, pour compléter `trouver_pin` dans `main.py` du repo [PinFinderPython](https://github.com/IbraAwa/PinFinderPython) : c'est ce fichier-là qui sert pour la soumission officielle de la mission.
 
 *Fin du message.*

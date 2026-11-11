@@ -14,13 +14,13 @@
 //     javac -cp lib\zip4j-2.11.6.jar PinFinder.java
 //     java  -cp "lib\zip4j-2.11.6.jar;." PinFinder
 //
-// A FAIRE : ecrire l'algorithme dans trouverPin (les 4 boucles).
+// A FAIRE : ecrire l'algorithme dans trouverPin.
 // Ne modifie pas testerPin : elle ne teste qu'un seul PIN a la fois.
 //
 // Une fois que ca marche en Java, tu peux demander a une IA de traduire
-// ton algorithme (juste les boucles, pas testerPin) en Python pour
-// completer trouver_pin dans main.py : c'est ce fichier-la qui sert
-// pour la soumission officielle de la mission.
+// ton algorithme (pas testerPin) en Python pour completer trouver_pin
+// dans main.py : c'est ce fichier-la qui sert pour la soumission
+// officielle de la mission.
 // ============================================================
 import net.lingala.zip4j.ZipFile;
 
@@ -49,13 +49,12 @@ public class PinFinder {
     }
 
     /**
-     * A toi de jouer : teste les PIN de 0000 a 9999 (quatre chiffres, donc
-     * quatre boucles imbriquees, comme dans le cours).
+     * A toi de jouer : teste les PIN de 0000 a 9999.
      * Renvoie le PIN trouve des que testerPin reussit, ou null si aucun
      * PIN ne marche.
      */
     static String trouverPin(String cheminZip, String fichier) {
-        // TODO : les 4 boucles
+        // TODO
         return null;
     }
 
