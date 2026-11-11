@@ -1,0 +1,11 @@
+# Java
+*.class
+
+# Éditeurs / IDE
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
